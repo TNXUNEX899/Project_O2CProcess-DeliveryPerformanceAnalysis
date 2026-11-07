@@ -36,7 +36,7 @@
 
 ---
 
-## 🏗️ โครงสร้างไฟล์ในโปรเจกต์ (Project Structure)
+## โครงสร้างไฟล์ในโปรเจกต์ (Project Structure)
 
 ```text
 ├── data/                                 # โฟลเดอร์จัดเก็บข้อมูลต้นทาง (Raw CSV Files)
@@ -57,7 +57,7 @@
 
 ---
 
-## ⚙️ แนวคิดและขั้นตอนการทำ Data Pipeline (Data Engineering & Cleaning)
+## แนวคิดและขั้นตอนการทำ Data Pipeline (Data Engineering & Cleaning)
 
 ### 1. Data Ingestion & Schema Parsing
 - แปลงคอลัมน์เวลาทั้งหมด 5 คอลัมน์ (`order_purchase_timestamp`, `order_approved_at`, `order_delivered_carrier_date`, `order_delivered_customer_date`, `order_estimated_delivery_date`) ให้เป็นชนิดข้อมูล `datetime64[ns]` เพื่อให้รองรับการคำนวณความต่างของเวลา (Time Difference)
@@ -77,7 +77,7 @@
 
 ---
 
-## 📊 โครงสร้างตารางผลลัพธ์ (Curated Data Model for Power BI)
+## โครงสร้างตารางผลลัพธ์ (Curated Data Model for Power BI)
 
 ชุดข้อมูลที่ถูกส่งออกไปยังโฟลเดอร์ `./output` ได้รับการจัดรูปแบบตามสถาปัตยกรรม Star Schema เพื่อเพิ่มประสิทธิภาพในการสร้าง Data Model และ Query Performance:
 

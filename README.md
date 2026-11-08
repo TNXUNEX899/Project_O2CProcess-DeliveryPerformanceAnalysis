@@ -39,20 +39,20 @@
 ## โครงสร้างไฟล์ในโปรเจกต์ (Project Structure)
 
 ```text
-├── data/                                 # โฟลเดอร์จัดเก็บข้อมูลต้นทาง (Raw CSV Files)
+├── data/                                 
 │   ├── olist_orders_dataset.csv
 │   ├── olist_order_items_dataset.csv
 │   ├── olist_order_payments_dataset.csv
 │   ├── olist_order_reviews_dataset.csv
 │   ├── olist_customers_dataset.csv
 │   └── olist_sellers_dataset.csv
-├── output/                               # ตาราง Curated Data พร้อมใช้งานสำหรับ BI Dashboard
+├── output/                               
 │   ├── fct_orders_o2c.csv                # Fact Table รวมประวัติเวลาและการจัดส่งระดับออเดอร์
 │   ├── dim_state_summary.csv             # Dimension สรุปประสิทธิภาพการจัดส่งแยกรายรัฐ
 │   ├── dim_seller_summary.csv            # Dimension สรุปยอดขายและความเสี่ยงส่งช้ารายร้านค้า
 │   └── dim_payment_summary.csv           # Dimension สรุปสถิติช่องทางการชำระเงิน
-├── Untitled.ipynb                        # Jupyter Notebook รหัสโปรแกรมการทำ Data Pipeline และ EDA
-└── README.md                             # เอกสารอธิบายโปรเจกต์
+├── Untitled.ipynb                        
+└── README.md                             
 ```
 
 ---
